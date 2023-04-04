@@ -33,8 +33,8 @@ def transform_text(text):
 
     return " ".join(y)
 
-tfidf = pickle.load(open("C:\\Users\\Harsh\\PycharmProjects\\spam_classifier\\vectorizer.pkl",'rb'))
-model = pickle.load(open('C:\\Users\\Harsh\\PycharmProjects\\spam_classifier\\model.pkl','rb'))
+tfidf = pickle.load(open("spam_classifier\\vectorizer.pkl",'rb'))
+model = pickle.load(open('spam_classifier\\model.pkl','rb'))
 
 st.title("Email/SMS Spam Classifier")
 
